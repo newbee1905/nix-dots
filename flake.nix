@@ -43,7 +43,7 @@
 				overlays = [
 					neovim-nightly.overlay
 					nixgl.overlay
-					(import ./overlays/discord.nix)
+					# (import ./overlays/discord.nix)
 				];
 			};
 		in {

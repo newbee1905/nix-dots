@@ -1,6 +1,11 @@
 { config, pkgs, ... }:
 
 {
+	imports = [
+		./pkgs/gui/discord
+		./pkgs/editor/neovim
+	];
+
 	home.packages = with pkgs; [
 		# Terminal
 		git
@@ -15,8 +20,8 @@
 		qtile
 
 		# applications
-		neovim-nightly
-		discord
+		# neovim-nightly
+		# discord
 		wezterm
 		# nixgl
 		nixgl.nixGLIntel
@@ -30,6 +35,8 @@
 		nodePackages.npm
 		yarn
 		nodePackages.pnpm
+		llvm
+		gcc
 	];
 
 
