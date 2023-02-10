@@ -37,6 +37,10 @@
 		nodePackages.pnpm
 		llvm
 		gcc
+
+		# Utilities
+		ibus
+		ibus-engines.bamboo
 	];
 
 
