@@ -48,7 +48,7 @@
 		git = {
 			enable = true;
 			userName = "newbee1905";
-			userEmail = "vuleminh1905@protonmail.com";
+			userEmail = "beenewminh@outlook.com";
 		};
 	};
 }
