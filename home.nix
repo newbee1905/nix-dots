@@ -18,6 +18,7 @@
 		neovim-nightly
 		discord
 		wezterm
+		# nixgl
 		nixgl.nixGLIntel
 		macchina
 		pulsemixer
