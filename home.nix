@@ -1,0 +1,38 @@
+{ config, pkgs, ... }:
+
+{
+	home.packages = with pkgs; [
+		# Terminal
+		git
+		btop
+		zsh
+		xclip
+		fd
+		du-dust
+		exa
+
+		# window manager
+		qtile
+
+		# applications
+		neovim-nightly
+		discord
+		wezterm
+		nixgl.nixGLIntel
+		macchina
+		pulsemixer
+		pamixer
+		flameshot
+
+		# languages
+		nodejs
+		nodePackages.npm
+		yarn
+		nodePackages.pnpm
+	];
+
+
+	home.extraOutputsToInstall = [ "man" ];
+
+	programs.home-manager.enable = true;
+}
