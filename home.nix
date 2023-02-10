@@ -34,5 +34,13 @@
 
 	home.extraOutputsToInstall = [ "man" ];
 
-	programs.home-manager.enable = true;
+	programs = {
+		home-manager.enable = true;
+
+		git = {
+			enable = true;
+			userName = "newbee1905";
+			userEmail = "vuleminh1905@protonmail.com";
+		};
+	};
 }
